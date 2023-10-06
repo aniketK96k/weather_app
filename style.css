@@ -1,0 +1,195 @@
+style.css * {
+    margin: 0;
+    padding: 0;
+}
+
+#bod {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("images/web444.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-color: black; */
+}
+
+#namecity {
+    font-family: Comic Sans MS;
+}
+
+.navbar {
+    background-color: rgb(44, 43, 43);
+}
+
+.cont {
+    position: fixed;
+    top: 20%;
+    bottom: 80%;
+    margin-left: 40%;
+}
+
+.navbar-brand {
+    list-style: none;
+    padding: 0.2rem 0.7rem;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: bold;
+background-color: #02fd13;
+color:white;
+}
+
+#navtext {
+    font-size: 1.2rem;
+    color: aqua;
+}
+
+#navtext:hover {
+    background-color: rgb(201, 231, 7);
+    color: rgb(28, 29, 29);
+    border-radius: 1rem;
+}
+
+.form-inline {
+    justify-content: center;
+}
+
+#inp {
+    border: 0.01rem solid;
+}
+
+#inp[type="text"]:focus {
+    background-color: rgb(243, 206, 166);
+}
+
+#butn {
+    border: 0.01rem solid;
+    border-color: black;
+    border-radius: 0.2rem;
+    color: #f0f40c;
+}
+
+#butn:hover {
+    color: #f44336;
+    background-color: chartreuse;
+    border-color: blanchedalmond;
+}
+
+.bsearch {
+    margin: 0.5rem;
+}
+
+.container {
+    margin-top: 3rem;
+}
+
+.card-header span {
+    color: rgb(8, 214, 255);
+    font-style: italic;
+}
+
+#co {
+    background-image: linear-gradient(rgba(166, 19, 180, 0.5),
+            rgba(183, 201, 125, 0.5)),
+        url("images/img.jpeg.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    color: black;
+}
+
+#coll {
+    background-image: linear-gradient(rgba(166, 19, 180, 0.5),
+            rgba(183, 201, 125, 0.5)),
+        url("images/web333.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    color: black;
+}
+
+.card-body {
+    background-image: linear-gradient(rgba(166, 19, 180, 0.5),
+            rgba(183, 201, 125, 0.5)),
+        url("images/im.jfif");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    color: black;
+    font-weight: 1000;
+}
+
+h4 span {
+    color: #fe1606;
+    font-weight: bold;
+}
+
+.main {
+    justify-content: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#textsea {
+    margin-top: -0.7rem;
+    margin-bottom: -0.7rem;
+}
+
+#day {
+    color: #0b0b0b;
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+#date {
+    font-weight: normal;
+    font-size: 1.3rem;
+}
+
+#time {
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+#ti {
+    background-color: #f0f40c;
+    margin-left: 1rem;
+    font-weight: bold;
+    border: 0.01rem solid;
+    border-color: black;
+    border-radius: 0.2rem;
+}
+
+h5 {
+    margin-left: 1rem;
+    color: black;
+    text-align: center;
+    margin-left: 1rem;
+}
+
+.data {
+    color: rgb(6, 250, 246);
+    font-weight: bold;
+    text-align: center;
+}
+
+.days {
+    margin-left: 1rem;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: left;
+}
+
+.card-body {
+    border-color: #f0f40c;
+    border: 0.001em;
+}
+
+#seven {
+    color: #02fd13;
+}
